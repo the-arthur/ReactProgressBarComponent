@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.progress-bar-element {
+  height: 100%;
+  display: inline-block;
+  border-radius: 25%;
+  border: solid 1px white;
+  box-sizing: border-box;
+}
+
+.progress-bar-container {
+  margin: auto;
+  margin-top: 40vh;
+  width: max-content;
+}
+
+.progress-bar-legends-list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.progress-bar-legends-list-item {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+.progress-bar-legends-list-item-indicator {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.progress-bar-title {
+  text-align: center;
+}
